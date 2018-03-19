@@ -1,5 +1,7 @@
-<!DOCTYPE html>
-<html >
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:th="http://www.thymeleaf.org"
+    xmlns:sec="http://www.thymeleaf.org" >
 <head>
 <title>Reading List</title>
 <link rel="stylesheet" th:href="@{/style.css}"></link>
@@ -24,7 +26,6 @@
 			<p>You have no books in your book list</p>
 		</div>
 		
-		<hr/>
 		<h3>Add a book</h3>
 		<form method="POST">
 		 	<label for="title">Title:</label>
